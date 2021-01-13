@@ -1,3 +1,9 @@
+%{
+    Copyright (c) 2021 Masato Kubotera
+    Released under the MIT license
+    https://opensource.org/licenses/mit-license.php
+%}
+
 clc, clear, close all
 
 format long

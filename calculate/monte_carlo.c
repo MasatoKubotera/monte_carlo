@@ -1,3 +1,9 @@
+/*
+  Copyright (c) 2021 Masato Kubotera
+  Released under the MIT license
+  https://opensource.org/licenses/mit-license.php
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -6,7 +12,8 @@
 #define NUM 10 //要素数
 
 typedef struct {
-  int max_point_num;          //最大ポイント数
+  int max_point_num; 
+           //最大ポイント数
   unsigned int point_num;     //扇内のポイント数
   double proximate_pi;        //近似 円周率
   double relative_error;      //相対誤差
