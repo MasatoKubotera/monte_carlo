@@ -50,6 +50,8 @@ int main(void){
       time++;
   }
 
+  FILE *output = fopen("data.txt", "w");
+
   printf("MAX-------|NUM-------|PI----------|ERROR-------\n");
   for(int i = 0; i < NUM; i++){
     //近似円周率を求める
@@ -59,7 +61,9 @@ int main(void){
     data[i].relative_error = fabs((data[i].proximate_pi - M_PI) / M_PI);
     
     printf("%10d|%10d|%.10lf|%.10lf\n", data[i].max_point_num, data[i].point_num, data[i].proximate_pi, data[i].relative_error);
+    fprintf(output,"%d %d %.10lf %.10lf\n", data[i].max_point_num, data[i].point_num, data[i].proximate_pi, data[i].relative_error);
   }
   
+  fclose(output);
   return 0;
 }
