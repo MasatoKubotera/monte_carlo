@@ -25,8 +25,6 @@ N = [1 10 100 1000 10000 100000 1000000];
 
 time = 0;
 
-proximate_pi = 0;
-
 point = zeros(1,numel(N));
 
 for i = 1:numel(N)
