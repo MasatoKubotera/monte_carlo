@@ -56,7 +56,7 @@ for i = 1:numel(N)
     relative_error = abs((proximate_pi - pi)  / pi);
     
     %タイトル作成
-    title(append('N=',num2str(N(i)),', RedPints=',num2str(point(i)),', \pi\approx',num2str(proximate_pi,'%.10f'),', 相対誤差',num2str(relative_error),'%'),'FontSize',12)
+    title(append('N=',num2str(N(i)),', RedPints=',num2str(point(i)),', \pi\approx',num2str(proximate_pi,'%.10f'),', 相対誤差',num2str(relative_error)),'FontSize',12)
     
     % 座標画像を保存
     exportgraphics(coordinate,append('coordinate_N=',num2str(N(i)),'.jpg'),'Resolution',500)
