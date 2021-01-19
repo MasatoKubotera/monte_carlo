@@ -34,24 +34,31 @@
   `plot/image/14-Jan-2021 21_34_45`
 
   - 試行回数 : 1回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=1.jpg" width="320px">
 
   - 試行回数 : 10回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=10.jpg" width="320px">
 
   - 試行回数 : 100回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=100.jpg" width="320px">
 
   - 試行回数 : 1000回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=1000.jpg" width="320px">
 
   - 試行回数 : 10000回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=10000.jpg" width="320px">
 
   - 試行回数 : 100000回
+
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=100000.jpg" width="320px">
 
   - 試行回数 : 1000000回
+  
     <img src="plot/image/14-Jan-2021%2021_34_45/coordinate_N=1000000.jpg" width="320px">
 
 ---
